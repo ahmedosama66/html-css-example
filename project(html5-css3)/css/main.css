@@ -1,0 +1,168 @@
+@font-face{
+	font-family: bfont;
+	src : url(Ubuntu-Regular.ttf);
+}
+
+
+body{
+	margin: 0;
+	width: 100%;
+	height: 2000px;
+	font-family: bfont;
+}
+
+#header{
+	width: 100%;
+	height: 55px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px gray;
+	position: fixed;
+	z-index: 100;
+}
+
+h1{
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 3px;
+	padding: 5px;
+}
+
+h1:hover{
+	background-color: #0a090957;
+}
+
+.ulr , .ulf{
+	float: right;
+	padding: 0;
+	margin-right: 30px;
+	text-decoration: none;
+	color: #000;
+}
+
+.lir , .lif{
+	list-style: none;
+	padding: 7px;
+	font-size: 15px;
+	letter-spacing: 3px;
+	float: left;
+	position: relative; 
+}
+a{
+	float: left;
+	text-decoration: none;
+	color: #000;
+}
+.lir:hover, .lif:hover {
+	background-color: #0a090957;
+}
+
+.lir:hover .ulf{
+	display: block;
+}
+.ulf{
+	padding: 0;
+	position: absolute;
+	top: 31px;
+	left: 0;
+	background-color: #fff;
+	display: none;
+	width: 94px;
+}
+
+#bg{
+	width: 100%;
+	height: 700px;
+	background-image: url(../images/bg1.jpg);
+	position: relative;
+}
+
+#bg p{
+	position: absolute;
+	background-color: #0a09097a;
+	top:330px;
+	left: 550px;
+	font-size: 50px;
+	letter-spacing: 5px;
+	color: #fff;
+}
+
+#projects{
+	margin-top: 30px;
+}
+h2{
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 3px;
+	padding: 5px;
+}
+.house{
+	float: left;
+	position: relative;
+}
+
+.sora{
+	width: 300px;
+	height: auto;
+	padding-left: 20px;
+	padding-top: 20px;
+	opacity: 0.5;
+	transition: opacity 1s;
+
+}
+
+.pa{
+	background-color: black;
+	color: white;
+	float: left;
+	position: absolute;
+	top: 2px;
+	left: 20px;
+	padding: 5px;
+}
+
+.sora:hover{
+	opacity: 1;
+}
+
+#about{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	float: left;
+}
+
+#about p{
+	text-indent: 20px;
+	padding: 0 20px 0 20px;
+}
+
+.con{
+	float: left;
+	margin-left: 20px;
+	padding-top: 50px;
+}
+
+.con img{
+	width: 300px;
+	height: auto;
+}
+
+.con p{
+	float: left;
+	width: 300px;
+}
+
+.con button{
+	float: left;
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	color: black;
+	background-color: #f1f1f1;
+	border: none;
+}
+
+.con button:hover{
+	background-color: #b7b3b3;
+}
